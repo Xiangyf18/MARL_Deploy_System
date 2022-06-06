@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-<group ns="$(env CAR_ID)">
-    <include file="$(env DRIVER_DIR)/launch/xtark_camera.launch" />
-</group>
-</launch>

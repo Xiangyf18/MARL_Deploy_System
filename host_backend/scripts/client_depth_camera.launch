@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-<group ns="$(env CAR_ID)">
-    <include file="$(find xtark_nav_depthcamera)/launch/Driver/xtark_depthcamera.launch">
-    <remap from="usb_cam/image_raw" to="$(env CAR_ID)/usb_cam/image_raw"/>
-    </include>
-
-</group>
-</launch>
