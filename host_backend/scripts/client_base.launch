@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find nics_robot_client)/launch/robot_client.launch" />
+<group ns="$(env CAR_ID)">
+    <include file="$(env DRIVER_DIR)/launch/xtark_driver.launch" />
+</group>
+</launch>

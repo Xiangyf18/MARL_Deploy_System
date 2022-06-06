@@ -1,0 +1,12 @@
+__pycache__
+.vscode
+log
+*.egg-info
+devel
+build
+.DS_Store
+testt.py
+.DS_Store
+
+*.log
+TODO.md
